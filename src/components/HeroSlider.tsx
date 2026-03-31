@@ -5,31 +5,31 @@ import Image from "next/image";
 
 const slides = [
   {
-    image: "/images/slides/slide1.jpg",
-    title: "Professional CCTV Installation",
-    subtitle: "Secure Your Business & Home",
-    desc: "HD & IP camera systems from Hikvision, CP Plus & HoneyWell with remote viewing, night vision & cloud storage.",
-    btn: { text: "CCTV Services", href: "/services/cctv-installation" },
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    title: "Custom Software & SaaS",
+    subtitle: "Drive Digital Transformation",
+    desc: "Scalable cloud solutions and custom software engineered to empower your business operations and accelerate growth.",
+    btn: { text: "Software Solutions", href: "/services/software-saas" },
   },
   {
-    image: "/images/slides/slide2.jpg",
-    title: "Complete Networking Solutions",
-    subtitle: "LAN, WAN & Firewall Setup",
-    desc: "Enterprise-grade networking infrastructure with structured cabling, router configuration & network security from SonicWall & TP-Link.",
-    btn: { text: "Network Solutions", href: "/services/network-solutions" },
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
+    title: "Data-Driven SEO Strategies",
+    subtitle: "Dominate Search Results",
+    desc: "Expert SEO content and optimization to improve your search rankings, attract organic traffic, and boost your online presence.",
+    btn: { text: "SEO Rankings", href: "/services/seo-content" },
   },
   {
-    image: "/images/slides/slide3.jpg",
-    title: "Expert Computer Repair",
-    subtitle: "Fastest Repair with Best Price",
-    desc: "Desktop, laptop & server repair services with hardware troubleshooting, data recovery & annual maintenance contracts.",
-    btn: { text: "Repair Services", href: "/services/computer-repair" },
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop",
+    title: "Social Media Marketing",
+    subtitle: "Engage Your Audience",
+    desc: "Impactful social media campaigns that build brand awareness, foster community engagement, and drive conversions.",
+    btn: { text: "Social Media", href: "/services/social-media" },
   },
   {
-    image: "/images/slides/slide4.jpg",
-    title: "Complete IT Infrastructure",
-    subtitle: "One Stop IT Solutions Provider",
-    desc: "EPABX, attendance machines, bulk SMS, web services & more. TechSelection Store is your trusted technology partner.",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2070&auto=format&fit=crop",
+    title: "Comprehensive Digital Tools",
+    subtitle: "Complete Digital Marketing Agency",
+    desc: "From targeted email marketing to fully integrated workflow tools, we provide the technology you need to succeed.",
     btn: { text: "All Services", href: "/services" },
   },
 ];
@@ -74,12 +74,10 @@ export default function HeroSlider() {
               i === current ? "opacity-100" : "opacity-0"
             }`}
           >
-            <Image
+            <img
               src={s.image}
               alt={s.title}
-              fill
-              className="object-cover"
-              priority={i === 0}
+              className="w-full h-full object-cover"
             />
           </div>
         ))}

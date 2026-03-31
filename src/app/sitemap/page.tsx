@@ -21,23 +21,21 @@ const sections = [
   {
     title: "Services",
     links: [
-      { label: "EPABX / Intercom", href: "/services/epabx" },
-      { label: "Computer Repair", href: "/services/computer-repair" },
-      { label: "CCTV Installation", href: "/services/cctv-installation" },
-      { label: "Network Solutions", href: "/services/network-solutions" },
-      { label: "Attendance Machines", href: "/services/attendance-machines" },
-      { label: "Bulk SMS", href: "/services/bulk-sms" },
+      { label: "Software & SaaS", href: "/services/software-saas" },
+      { label: "Digital Tools", href: "/services/digital-tools" },
+      { label: "SEO Content", href: "/services/seo-content" },
+      { label: "Social Media", href: "/services/social-media" },
+      { label: "Email Marketing", href: "/services/email-marketing" },
+      { label: "Web Services & Hosting", href: "/services/web-services" },
     ],
   },
   {
     title: "Products",
     links: [
-      { label: "CCTV Cameras", href: "/products/cctv-cameras" },
-      { label: "Networking Equipment", href: "/products/networking-equipment" },
-      { label: "Computers & Laptops", href: "/products/computers-laptops" },
-      { label: "Attendance Systems", href: "/products/attendance-systems" },
-      { label: "EPABX Systems", href: "/products/epabx-systems" },
-      { label: "Software & Licenses", href: "/products/software-licenses" },
+      { label: "Software Licenses", href: "/services/software-saas" },
+      { label: "SaaS Subscriptions", href: "/services/software-saas" },
+      { label: "SEO Packages", href: "/services/seo-content" },
+      { label: "Social Media Campaigns", href: "/services/social-media" },
     ],
   },
   {

@@ -12,14 +12,13 @@ export default function Hero() {
         <div className="flex-1 max-w-xl text-center lg:text-left">
           <h1 className="text-3xl md:text-[2.8rem] font-bold leading-tight mb-5">
             Building Smarter{" "}
-            <span className="text-cyan">IT Infrastructure</span> For Your
+            <span className="text-cyan">Digital Solutions</span> For Your
             Business
           </h1>
           <p className="text-lg text-blue-200/80 mb-8 leading-relaxed">
-            TechSelection Store is your trusted partner for CCTV installation,
-            networking solutions, computer repair, and comprehensive IT
-            services. We deliver reliable, secure, and cost-effective technology
-            solutions.
+            TechSelection Store is your trusted partner for Custom Software,
+            SaaS development, SEO content, and comprehensive digital
+            marketing campaigns. We deliver reliable, secure, and scalable digital tools.
           </p>
           <div className="flex gap-4 flex-wrap justify-center lg:justify-start">
             <a
@@ -39,7 +38,7 @@ export default function Hero() {
 
         <div className="flex-1 hidden lg:flex justify-center items-center">
           <div className="w-[400px] h-[400px] bg-cyan/5 border-2 border-cyan/15 rounded-full flex items-center justify-center relative">
-            <i className="fas fa-shield-halved text-[8rem] text-cyan/30" />
+            <i className="fas fa-rocket text-[8rem] text-cyan/30" />
             <div className="absolute w-80 h-80 border border-dashed border-cyan/20 rounded-full animate-spin-slow" />
           </div>
         </div>

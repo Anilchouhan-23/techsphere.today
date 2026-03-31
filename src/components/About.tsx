@@ -29,11 +29,10 @@ export default function About() {
       >
         <div className="flex-1 min-w-[280px]">
           <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden relative shadow-[0_8px_30px_rgba(0,0,0,0.12)]">
-            <Image
-              src="/images/slides/slide1.jpg"
-              alt="TechSelection Store - IT Solutions"
-              fill
-              className="object-cover"
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+              alt="TechSelection Store - Digital Solutions"
+              className="w-full h-full object-cover"
             />
             <div className="absolute bottom-4 left-4 bg-cyan text-navy font-bold px-4 py-2 rounded-lg text-sm shadow-lg">
               <i className="fas fa-award mr-2" />
@@ -43,23 +42,21 @@ export default function About() {
         </div>
         <div className="flex-1">
           <h2 className="text-3xl font-bold text-navy mb-2">
-            We are Leading Company
+            We are a Leading Digital Agency
           </h2>
           <p className="text-cyan text-lg font-medium mb-5">
-            Fastest repair service with best price!
+            Accelerate your growth with our digital tools
           </p>
           <p className="text-gray-600 mb-4 leading-relaxed">
-            We at TechSelection Store are a group of dedicated engineers with more
-            than a decade of experience in project designing, planning,
-            execution, and maintenance. Specializing in CCTV installation,
-            networking, and IT infrastructure, we have worked on a wide range of
-            major projects involving safety systems, access control, burglar
-            alarm systems, and surveillance solutions.
+            We at TechSelection Store are a group of dedicated engineers and digital marketers with more
+            than a decade of experience in custom software development, digital
+            transformation, and marketing solutions. Specializing in SaaS products,
+            SEO strategy, and comprehensive social media campaigns, we have worked on a wide range of
+            major projects that drive revenue and scale businesses globally.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            From corporate offices to residential buildings, educational
-            institutions to healthcare facilities, we provide end-to-end IT
-            solutions tailored to your specific needs.
+            From startups to enterprise companies, e-commerce brands to service sectors,
+            we provide end-to-end digital solutions tailored to your specific goals.
           </p>
           <div className="flex gap-10 mt-7">
             <Counter end={500} suffix="+" label="Projects Completed" />

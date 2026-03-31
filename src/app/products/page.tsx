@@ -7,52 +7,36 @@ import Image from "next/image";
 
 const products = [
   {
-    category: "CCTV Cameras",
-    href: "/products/cctv-cameras",
-    icon: "fa-video",
-    image: "/images/brands/hikvision.jpg",
-    brands: "Hikvision, CP Plus, HoneyWell",
-    items: ["Dome Cameras", "Bullet Cameras", "PTZ Cameras", "IP Cameras", "DVR & NVR Systems"],
-  },
-  {
-    category: "Networking Equipment",
-    href: "/products/networking-equipment",
-    icon: "fa-network-wired",
-    image: "/images/brands/tplink.jpg",
-    brands: "TP-Link, SonicWall, Dell",
-    items: ["Routers & Switches", "Firewalls", "Access Points", "Network Cables", "Server Racks"],
-  },
-  {
-    category: "Computers & Laptops",
-    href: "/products/computers-laptops",
-    icon: "fa-laptop",
-    image: "/images/brands/dell.jpg",
-    brands: "Dell, HP",
-    items: ["Desktop Computers", "Laptops", "Monitors", "Printers", "Accessories"],
-  },
-  {
-    category: "Attendance Systems",
-    href: "/products/attendance-systems",
-    icon: "fa-fingerprint",
-    image: "/images/brands/realtime.jpg",
-    brands: "RealTime, TimeWatch, ESSL",
-    items: ["Biometric Machines", "Face Recognition", "RFID Card Readers", "Access Control", "Door Locks"],
-  },
-  {
-    category: "EPABX Systems",
-    href: "/products/epabx-systems",
-    icon: "fa-phone-volume",
-    image: "/images/brands/matrix.jpg",
-    brands: "Matrix",
-    items: ["EPABX Systems", "IP-PBX Systems", "Intercom Units", "Telephones", "Conference Phones"],
-  },
-  {
-    category: "Software & Licenses",
-    href: "/products/software-licenses",
+    category: "Software Licenses",
+    href: "/services/software-saas",
     icon: "fa-compact-disc",
     image: "/images/brands/tally.jpg",
-    brands: "Tally, Quick Heal",
-    items: ["Tally Software", "Quick Heal Antivirus", "Windows Licenses", "Office 365", "Server Software"],
+    brands: "Tally, Windows, Office 365",
+    items: ["Tally Prime", "Quick Heal Antivirus", "Windows 11 OS", "Office 365 Standard", "Server Licenses"],
+  },
+  {
+    category: "SaaS Subscriptions",
+    href: "/services/software-saas",
+    icon: "fa-cloud",
+    image: "/images/brands/tally.jpg",
+    brands: "Cloud Platforms",
+    items: ["CRM Software", "HRMS Portals", "Project Management", "Inventory Management", "Custom Dashboards"],
+  },
+  {
+    category: "SEO Packages",
+    href: "/services/seo-content",
+    icon: "fa-search",
+    image: "/images/brands/tally.jpg",
+    brands: "Digital Marketing",
+    items: ["Basic SEO Audit", "On-Page Optimization", "Link Building", "Content Marketing", "Local SEO"],
+  },
+  {
+    category: "Social Media Campaigns",
+    href: "/services/social-media",
+    icon: "fa-hashtag",
+    image: "/images/brands/tally.jpg",
+    brands: "Growth Hacks",
+    items: ["Instagram Growth", "LinkedIn B2B", "Facebook Ads", "Content Calendars", "Community Management"],
   },
 ];
 
@@ -61,18 +45,16 @@ export default function ProductsPage() {
     <>
       <TopBar />
       <Navbar />
-      <PageBanner title="Our Products" breadcrumb="Products" />
+      <PageBanner title="Our Digital Products" breadcrumb="Products" />
 
       <section className="py-20">
         <div className="w-[90%] max-w-[1200px] mx-auto">
           <div className="text-center mb-14">
             <h2 className="text-3xl font-bold text-navy mb-3">
-              Products We Deal In
+              Solutions & Packages We Offer
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-              We deal with top brands including{" "}
-              <strong>Hikvision, CP Plus, HoneyWell, RealTime, TimeWatch, Dell, HP</strong>{" "}
-              and more.
+              We provide industry-leading <strong>Software, Cloud Subscriptions</strong>, and tailored marketing packages.
             </p>
             <div className="w-15 h-[3px] bg-cyan mx-auto mt-4 rounded" />
           </div>

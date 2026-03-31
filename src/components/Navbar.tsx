@@ -4,12 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 
 const serviceDropdown = [
-  { label: "Computer Repair Services", href: "/services/computer-repair" },
-  { label: "Networking Solutions", href: "/services/network-solutions" },
-  { label: "CCTV Installations", href: "/services/cctv-installation" },
-  { label: "EPABX Installation", href: "/services/epabx" },
-  { label: "Attendance Machines", href: "/services/attendance-machines" },
-  { label: "Bulk SMS Services", href: "/services/bulk-sms" },
+  { label: "Software & SaaS Solutions", href: "/services/software-saas" },
+  { label: "Digital Tools", href: "/services/digital-tools" },
+  { label: "SEO Content Services", href: "/services/seo-content" },
+  { label: "Social Media Marketing", href: "/services/social-media" },
+  { label: "Email Marketing", href: "/services/email-marketing" },
+  { label: "Web Services & Hosting", href: "/services/web-services" },
 ];
 
 const webServicesDropdown = [

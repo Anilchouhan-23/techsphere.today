@@ -5,28 +5,28 @@ import { useScrollReveal } from "./useScrollReveal";
 
 const testimonials = [
   {
-    text: "TechSelection Store has been instrumental in setting up our entire IT infrastructure. Their CCTV installation was professional and the quality of cameras is outstanding. Highly recommended!",
+    text: "TechSelection Store has been instrumental in scaling our digital presence. Their custom software development was professional and the quality of the SaaS platform is outstanding. Highly recommended!",
     name: "Rajesh Kumar",
     company: "TechVista Pvt. Ltd",
     image: "/images/clients/client1.jpg",
     rating: 5,
   },
   {
-    text: "We have 50+ cameras installed and 100+ cameras under AMC with TechSelection. Their support team is responsive and the maintenance service is exceptional. Great partnership!",
+    text: "We've seen a 50% increase in organic traffic and 100+ new leads generated monthly since partnering with TechSelection for SEO and Social Media. Great partnership!",
     name: "Priya Sharma",
     company: "InnoTech Solutions",
     image: "/images/clients/client2.jpg",
     rating: 5,
   },
   {
-    text: "From networking to attendance systems, TechSelection handles all our IT needs. Their team is knowledgeable, punctual, and delivers quality work every time. A trusted technology partner.",
+    text: "From email marketing to complete digital transformation, TechSelection handles all our tech needs. Their team is knowledgeable, punctual, and delivers quality work every time. A trusted technology partner.",
     name: "Anil Reddy",
     company: "Global Enterprises",
     image: "/images/clients/client3.jpg",
     rating: 5,
   },
   {
-    text: "Excellent service and competitive pricing. TechSelection set up our complete office network and EPABX system within the committed timeline. Very satisfied with their professionalism.",
+    text: "Excellent service and competitive pricing. TechSelection launched our new enterprise software portal within the committed timeline. Very satisfied with their professionalism.",
     name: "Sanjay Mehta",
     company: "Bright Education Group",
     image: "/images/clients/client1.jpg",

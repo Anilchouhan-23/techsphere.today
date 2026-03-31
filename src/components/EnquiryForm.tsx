@@ -4,12 +4,12 @@ import { useState, type FormEvent } from "react";
 import { useScrollReveal } from "./useScrollReveal";
 
 const serviceOptions = [
-  "CCTV Installation",
-  "Networking / LAN",
-  "Computer Repair",
-  "Access Control / Attendance Machine",
-  "EPABX / Intercom",
-  "Web Services",
+  "Custom Software & SaaS",
+  "Digital Tools Implementation",
+  "SEO Content Services",
+  "Social Media Campaigns",
+  "Email Marketing",
+  "Web Services & Hosting",
   "Other",
 ];
 

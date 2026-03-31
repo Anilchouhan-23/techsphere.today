@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const serviceLinks = [
-  { label: "EPABX / Intercom", href: "/services/epabx" },
-  { label: "Computer Repair", href: "/services/computer-repair" },
-  { label: "CCTV Installation", href: "/services/cctv-installation" },
-  { label: "Network Solutions", href: "/services/network-solutions" },
-  { label: "Attendance Machines", href: "/services/attendance-machines" },
-  { label: "Bulk SMS", href: "/services/bulk-sms" },
+  { label: "Software Solutions", href: "/services/software-saas" },
+  { label: "SaaS Platforms", href: "/services/software-saas" },
+  { label: "Digital Tools", href: "/services/digital-tools" },
+  { label: "SEO Content", href: "/services/seo-content" },
+  { label: "Social Media", href: "/services/social-media" },
+  { label: "Email Marketing", href: "/services/email-marketing" },
 ];
 
 const additionalLinks = [
@@ -31,12 +31,10 @@ export default function Footer() {
               TechSelection Store
             </h4>
             <p className="text-sm leading-relaxed mb-2">
-              We Deal with <strong className="text-gray-300">Hikvision, CPPlus, HoneyWell,
-              Realtime, TimeWatch, Dell, HP</strong>
+              We provide cutting-edge <strong className="text-gray-300">Software, SaaS, SEO, and Digital Marketing tools</strong> to scale your business.
             </p>
             <p className="text-sm leading-relaxed mb-3">
-              Your trusted partner for IT solutions, CCTV installation,
-              networking, and comprehensive technology services.
+              Your trusted partner for comprehensive digital transformation, marketing campaigns, and specialized software solutions.
             </p>
             <div className="flex gap-3 mt-4">
               {["facebook-f", "twitter", "linkedin-in", "instagram"].map(
