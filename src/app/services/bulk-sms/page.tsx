@@ -29,7 +29,7 @@ export default function BulkSMSPage() {
                 Affordable Bulk SMS & Messaging Solutions
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                TechSelection Store offers reliable and affordable bulk SMS
+                TechSphere offers reliable and affordable bulk SMS
                 services for businesses looking to reach their customers
                 effectively. Whether it&apos;s promotional campaigns,
                 transactional alerts, or OTP delivery, we have you covered.

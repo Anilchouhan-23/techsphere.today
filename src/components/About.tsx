@@ -31,7 +31,7 @@ export default function About() {
           <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden relative shadow-[0_8px_30px_rgba(0,0,0,0.12)]">
             <img
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
-              alt="TechSelection Store - Digital Solutions"
+              alt="TechSphere - Digital Solutions"
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-4 left-4 bg-cyan text-navy font-bold px-4 py-2 rounded-lg text-sm shadow-lg">
@@ -48,7 +48,7 @@ export default function About() {
             Accelerate your growth with our digital tools
           </p>
           <p className="text-gray-600 mb-4 leading-relaxed">
-            We at TechSelection Store are a group of dedicated engineers and digital marketers with more
+            We at TechSphere are a group of dedicated engineers and digital marketers with more
             than a decade of experience in custom software development, digital
             transformation, and marketing solutions. Specializing in SaaS products,
             SEO strategy, and comprehensive social media campaigns, we have worked on a wide range of

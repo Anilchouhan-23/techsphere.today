@@ -32,7 +32,7 @@ export default function SoftwareSaaSPage() {
                 Custom Software engineered for growth
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6 text-[1.05rem]">
-                TechSelection Store develops state-of-the-art software and cloud-based SaaS products tailored to your unique business requirements. Our engineering team focuses on building secure, scalable, and high-performance applications that deliver real value.
+                TechSphere develops state-of-the-art software and cloud-based SaaS products tailored to your unique business requirements. Our engineering team focuses on building secure, scalable, and high-performance applications that deliver real value.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8 text-[1.05rem]">
                 Whether you need a robust internal tool, a modern web platform, or a completely new Software-as-a-Service product, we provide end-to-end development solutions using modern React, Node.js, and Cloud technologies.

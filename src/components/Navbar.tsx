@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const serviceDropdown = [
   { label: "Software & SaaS Solutions", href: "/services/software-saas" },
@@ -41,8 +42,9 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-[0_2px_20px_rgba(0,0,0,0.08)] sticky top-0 z-50">
       <div className="w-[90%] max-w-[1200px] mx-auto flex justify-between items-center py-3">
-        <Link href="/" className="text-[1.7rem] font-bold text-navy shrink-0">
-          Tech<span className="text-cyan">Selection</span>
+        <Link href="/" className="text-[1.7rem] font-bold text-navy shrink-0 flex items-center gap-2">
+          <Image src="/logo.png" alt="TechSphere Logo" width={32} height={32} className="rounded-full" />
+          Tech<span className="text-cyan">Sphere</span>
         </Link>
 
         {/* Nav */}

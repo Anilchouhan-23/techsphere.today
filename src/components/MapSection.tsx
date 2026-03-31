@@ -7,7 +7,7 @@ export default function MapSection() {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="TechSelection Store Location"
+        title="TechSphere Location"
       />
     </section>
   );

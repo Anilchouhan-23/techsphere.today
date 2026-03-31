@@ -9,7 +9,7 @@ const posts = [
     id: 1,
     title: "Networking Solutions in Hyderabad - Complete Guide",
     excerpt:
-      "Looking for reliable networking solutions in Hyderabad? TechSelection Store provides complete LAN/WAN setup, structured cabling, firewall configuration and network security for businesses of all sizes.",
+      "Looking for reliable networking solutions in Hyderabad? TechSphere provides complete LAN/WAN setup, structured cabling, firewall configuration and network security for businesses of all sizes.",
     date: "24 Mar 2026",
     category: "Networking",
     icon: "fa-network-wired",

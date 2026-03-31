@@ -15,18 +15,18 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-2xl font-bold text-navy mb-6">Privacy Policy</h2>
 
           <p className="text-gray-600 mb-4">
-            Our privacy policy set out below tells you how TechSelection Store uses and
-            protects any information that you give TechSelection Store when you use this
+            Our privacy policy set out below tells you how TechSphere uses and
+            protects any information that you give TechSphere when you use this
             website.
           </p>
           <p className="text-gray-600 mb-4">
-            TechSelection Store is committed to ensuring that your privacy is protected.
+            TechSphere is committed to ensuring that your privacy is protected.
             Should we ask you to provide certain information by which you can be
             identified when using this website, then you can be assured that it will
             be used only in accordance with this privacy statement.
           </p>
           <p className="text-gray-600 mb-4">
-            TechSelection Store may change this policy from time to time by updating this
+            TechSphere may change this policy from time to time by updating this
             page. You should check from time to time to ensure that you are happy with
             any changes. This policy is effective from 01/02/2021.
           </p>
@@ -146,7 +146,7 @@ export default function PrivacyPolicyPage() {
               If you have previously agreed to us using your personal information for
               direct marketing purposes, you may change your mind at any time by writing
               to or emailing us at{" "}
-              <strong>info@techselection.store</strong>.
+              <strong>info@techsphere.today</strong>.
             </li>
           </ul>
           <p className="text-gray-600 mb-4">
@@ -172,20 +172,20 @@ export default function PrivacyPolicyPage() {
             Data Protection &amp; Privacy
           </h2>
           <p className="text-gray-600 mb-4 font-medium">
-            Data Protection and Privacy for TechSelection Store
+            Data Protection and Privacy for TechSphere
           </p>
 
           {/* 1. Overview */}
           <h3 className="text-lg font-semibold text-navy mt-10 mb-3">1. Overview</h3>
           <p className="text-gray-600 mb-3">
-            1.1 This policy sets out the basis on which any personal data we (TechSelection
+            1.1 This policy sets out the basis on which any personal data we (TechSphere
             Store) collect from you, or that you provide to us, will be processed by us.
             Please read the following carefully to understand our views and practices
             regarding your personal data and how we will treat it.
           </p>
           <p className="text-gray-600 mb-4">
             1.2 For the purpose of the Data Protection Act 1998 (the &ldquo;Act&rdquo;),
-            the data controller is TechSelection Store.
+            the data controller is TechSphere.
           </p>
 
           {/* 2. Personal information we may collect */}
@@ -369,7 +369,7 @@ export default function PrivacyPolicyPage() {
             always keep your personal data rights in high regards and take account of these
             rights. If you do not want us to process your data in this way or have a
             specific objection, please notify us by email,{" "}
-            <strong>info@techselection.store</strong> with the subject line &ldquo;Data
+            <strong>info@techsphere.today</strong> with the subject line &ldquo;Data
             Protection&rdquo;. Please bear in mind that if you object this may affect our
             ability to carry out services and the tasks in clause 7.2 for your benefit.
           </p>

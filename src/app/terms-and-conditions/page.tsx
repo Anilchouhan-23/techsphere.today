@@ -23,24 +23,24 @@ export default function TermsPage() {
 
           <p className="text-gray-600 mb-4">
             All information, products and services displayed on the
-            https://techselection.store/ website constitute an &ldquo;invitation to
+            https://techsphere.today/ website constitute an &ldquo;invitation to
             offer&rdquo;. Your order for purchase constitutes your &ldquo;offer&rdquo;
             which shall be subject to the terms and conditions as listed below.
-            https://techselection.store/ website has the right to accept or reject your
+            https://techsphere.today/ website has the right to accept or reject your
             offer without assigning any reason thereof.
           </p>
 
           <p className="text-gray-600 mb-4">
-            In order to use the https://techselection.store/ website belonging to
-            TechSelection Store, you (The User) have accepted the following terms and
-            conditions given below. TechSelection Store reserves the right to add, delete,
+            In order to use the https://techsphere.today/ website belonging to
+            TechSphere, you (The User) have accepted the following terms and
+            conditions given below. TechSphere reserves the right to add, delete,
             alter or modify these terms and conditions at any time.
           </p>
 
           <p className="text-gray-600 mb-4">
             You (The User) are therefore advised to read carefully these terms and
-            conditions every time you use the https://techselection.store/ website of
-            TechSelection Store.
+            conditions every time you use the https://techsphere.today/ website of
+            TechSphere.
           </p>
 
           <div className="border-t border-gray-200 my-8" />
@@ -58,8 +58,8 @@ export default function TermsPage() {
           </p>
 
           <p className="text-gray-600 mb-4">
-            TechSelection Store will not be responsible for any damage suffered by users
-            from use of the services on https://techselection.store/. This without
+            TechSphere will not be responsible for any damage suffered by users
+            from use of the services on https://techsphere.today/. This without
             limitation includes loss of revenue or data resulting from delays,
             non-deliveries, missed deliveries, or service interruptions as may occur
             because of any act / omission of the vendor. This disclaimer of liability
@@ -72,7 +72,7 @@ export default function TermsPage() {
           </p>
 
           <p className="text-gray-600 mb-4">
-            TechSelection Store will take &ldquo;Full Responsibility&rdquo; of your Order,
+            TechSphere will take &ldquo;Full Responsibility&rdquo; of your Order,
             if the Order has been shipped to any of the major cities, where we used
             &ldquo;Private Courier Companies&rdquo; to ship your order.
           </p>
@@ -85,21 +85,21 @@ export default function TermsPage() {
           <p className="text-gray-600 mb-4">
             If a non-delivery or late delivery occurs due to a mistake by the User
             (i.e., wrong or incomplete name or address or recipient not available) any
-            extra cost spent by TechSelection Store for re-delivery shall be claimed from
+            extra cost spent by TechSphere for re-delivery shall be claimed from
             the User placing the order.
           </p>
 
           <p className="text-gray-600 mb-4">
-            The User agrees to give accurate, authentic and true information. TechSelection
+            The User agrees to give accurate, authentic and true information. TechSphere
             Store reserves the right to confirm and validate the information and other
             details provided by the User at any point of time. If any such User details
-            are found not to be true wholly or partly, TechSelection Store has the right in
+            are found not to be true wholly or partly, TechSphere has the right in
             its sole discretion to reject the registration and debar the User from using
-            the services of www.techselection.store without prior intimation whatsoever.
+            the services of www.techsphere.today without prior intimation whatsoever.
           </p>
 
           <p className="text-gray-600 mb-4">
-            All items sold by TechSelection Store are warranted solely by the
+            All items sold by TechSphere are warranted solely by the
             manufacturer/distributor. All items requiring repair should be sent to the
             manufacturer/distributor directly for service. We are not liable if the
             manufacturer/distributor fails to perform warranty service.
@@ -118,21 +118,21 @@ export default function TermsPage() {
           <div className="border-t border-gray-200 my-8" />
 
           <p className="text-gray-600 mb-4">
-            TechSelection Store will not be responsible for any consequential or incidental
+            TechSphere will not be responsible for any consequential or incidental
             damage resulting from the sale or use of any merchandise purchased from us.
-            TechSelection Store liability is limited to the monetary value of the
+            TechSphere liability is limited to the monetary value of the
             merchandise.
           </p>
 
           <p className="text-gray-600 mb-4">
-            TechSelection Store will not be liable for any type or kind of credit card
+            TechSphere will not be liable for any type or kind of credit card
             fraud. The liability to use a card fraudulently will be on the user and the
             onus to &lsquo;prove otherwise&rsquo; shall be exclusively on the user. The
             User must exclusively use his/her own card on the site.
           </p>
 
           <p className="text-gray-600 mb-4">
-            TechSelection Store shall not entertain any complaints after 7 days, once the
+            TechSphere shall not entertain any complaints after 7 days, once the
             order is delivered.
           </p>
 
@@ -154,7 +154,7 @@ export default function TermsPage() {
           <p className="text-gray-600 mb-4">
             This World Wide Web site and all of its content, including but not limited to
             the text and images used herein and their arrangement, is copyright &copy;2020
-            TechSelection Store.
+            TechSphere.
           </p>
 
           {/* 13.2 Trademarks */}
@@ -162,9 +162,9 @@ export default function TermsPage() {
             13.2 TRADEMARKS NOTICE
           </h3>
           <p className="text-gray-600 mb-4">
-            TechSelection Store and products referenced herein are trademarks or registered
+            TechSphere and products referenced herein are trademarks or registered
             trademarks. All other products and company names referenced herein, if any,
-            may be the trademarks of their respective owners. TechSelection Store does not
+            may be the trademarks of their respective owners. TechSphere does not
             authorize the use of any trade name, trademark, registered trademark, logo,
             or any copyrighted material referenced herein for any purpose whatsoever,
             including non-commercial applications.
@@ -228,7 +228,7 @@ export default function TermsPage() {
           </h3>
           <p className="text-gray-600 mb-4">
             There are certain risks in using any information, software, or products found
-            on the internet; TechSelection Store cautions you to make certain that you
+            on the internet; TechSphere cautions you to make certain that you
             completely understand these risks before retrieving, using, relying upon, or
             purchasing anything via the internet.
           </p>

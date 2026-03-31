@@ -16,7 +16,7 @@ export default function ShippingPolicyPage() {
 
           <h3 className="text-lg font-semibold text-navy mt-8 mb-3">1. Delivery Areas</h3>
           <p className="text-gray-600 mb-4">
-            TechSelection Store delivers products and provides installation services primarily
+            TechSphere delivers products and provides installation services primarily
             in Hyderabad and surrounding areas. For other locations, please contact us to
             check availability and shipping charges.
           </p>

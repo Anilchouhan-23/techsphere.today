@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-navy: #111827;
-  --color-navy-light: #1e293b;
-  --color-navy-dark: #030712;
-  --color-cyan: #8b5cf6;
-  --color-cyan-dark: #7c3aed;
+  --color-navy: #18181b;       /* Zinc 900 */
+  --color-navy-light: #27272a; /* Zinc 800 */
+  --color-navy-dark: #09090b;  /* Zinc 950 */
+  --color-cyan: #f43f5e;       /* Rose 500 */
+  --color-cyan-dark: #e11d48;  /* Rose 600 */
 }
 
 html {

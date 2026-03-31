@@ -11,9 +11,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "TechSelection Store | Software & Digital Agency",
+  title: "TechSphere | Software & Digital Agency",
   description:
-    "TechSelection Store - Leading provider of custom software development, SaaS solutions, SEO content, and digital marketing services.",
+    "TechSphere - Leading provider of custom software development, SaaS solutions, SEO content, and digital marketing services.",
 };
 
 export default function RootLayout({

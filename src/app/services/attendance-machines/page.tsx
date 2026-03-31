@@ -29,7 +29,7 @@ export default function AttendanceMachinesPage() {
                 Biometric & Access Control Solutions
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                TechSelection Store provides advanced biometric attendance and
+                TechSphere provides advanced biometric attendance and
                 access control systems from trusted brands like{" "}
                 <strong>RealTime</strong>, <strong>TimeWatch</strong>, and{" "}
                 <strong>ESSL</strong>. Our solutions help businesses automate

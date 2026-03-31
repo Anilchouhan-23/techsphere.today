@@ -16,7 +16,7 @@ export default function Hero() {
             Business
           </h1>
           <p className="text-lg text-blue-200/80 mb-8 leading-relaxed">
-            TechSelection Store is your trusted partner for Custom Software,
+            TechSphere is your trusted partner for Custom Software,
             SaaS development, SEO content, and comprehensive digital
             marketing campaigns. We deliver reliable, secure, and scalable digital tools.
           </p>

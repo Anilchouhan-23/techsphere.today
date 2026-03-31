@@ -29,7 +29,7 @@ export default function NetworkSolutionsPage() {
                 Complete Networking Infrastructure
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                TechSelection Store provides end-to-end networking solutions for
+                TechSphere provides end-to-end networking solutions for
                 businesses of all sizes. From small office setups to large
                 enterprise networks, our certified engineers design, deploy,
                 and manage robust network infrastructure.

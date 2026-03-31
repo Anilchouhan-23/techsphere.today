@@ -29,7 +29,7 @@ export default function EPABXPage() {
                 Enterprise Communication Systems
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                TechSelection Store provides comprehensive EPABX and intercom
+                TechSphere provides comprehensive EPABX and intercom
                 solutions for seamless internal and external communication. We
                 partner with <strong>Matrix</strong> and other leading brands
                 to deliver reliable telecom infrastructure.
