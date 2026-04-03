@@ -1,0 +1,118 @@
+import Navbar from "@/components/Navbar";
+import PageBanner from "@/components/PageBanner";
+import Footer from "@/components/Footer";
+import Link from "next/link";
+import Image from "next/image";
+
+const products = [
+  {
+    category: "Software Licenses",
+    href: "/services/software-saas",
+    icon: "fa-compact-disc",
+    image: "/images/brands/tally.jpg",
+    brands: "Tally, Windows, Office 365",
+    items: ["Tally Prime", "Quick Heal Antivirus", "Windows 11 OS", "Office 365 Standard", "Server Licenses"],
+  },
+  {
+    category: "SaaS Subscriptions",
+    href: "/services/software-saas",
+    icon: "fa-cloud",
+    image: "/images/brands/tally.jpg",
+    brands: "Cloud Platforms",
+    items: ["CRM Software", "HRMS Portals", "Project Management", "Inventory Management", "Custom Dashboards"],
+  },
+  {
+    category: "SEO Packages",
+    href: "/services/seo-content",
+    icon: "fa-search",
+    image: "/images/brands/tally.jpg",
+    brands: "Digital Marketing",
+    items: ["Basic SEO Audit", "On-Page Optimization", "Link Building", "Content Marketing", "Local SEO"],
+  },
+  {
+    category: "Social Media Campaigns",
+    href: "/services/social-media",
+    icon: "fa-hashtag",
+    image: "/images/brands/tally.jpg",
+    brands: "Growth Hacks",
+    items: ["Instagram Growth", "LinkedIn B2B", "Facebook Ads", "Content Calendars", "Community Management"],
+  },
+];
+
+export default function ProductsPage() {
+  return (
+    <>
+      <Navbar />
+      <PageBanner title="Our Digital Products" breadcrumb="Products" />
+
+      <section className="py-20">
+        <div className="w-[90%] max-w-[1200px] mx-auto">
+          <div className="text-center mb-14">
+            <h2 className="text-3xl font-bold text-navy mb-3">
+              Solutions & Packages We Offer
+            </h2>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">
+              We provide industry-leading <strong>Software, Cloud Subscriptions</strong>, and tailored marketing packages.
+            </p>
+            <div className="w-15 h-[3px] bg-cyan mx-auto mt-4 rounded" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {products.map((p) => (
+              <Link
+                key={p.category}
+                href={p.href}
+                className="bg-white rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.06)] hover:-translate-y-2 hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] transition-all group block"
+              >
+                {/* Card image header */}
+                <div className="relative h-[160px] bg-gradient-to-br from-navy-light to-navy-dark overflow-hidden">
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <Image
+                      src={p.image}
+                      alt={p.category}
+                      width={150}
+                      height={100}
+                      className="object-contain opacity-80 group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute top-3 right-3 bg-cyan text-navy text-xs font-bold px-3 py-1 rounded-full">
+                    {p.brands.split(",")[0]}
+                  </div>
+                </div>
+
+                <div className="p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-cyan/10 rounded-lg flex items-center justify-center">
+                      <i className={`fas ${p.icon} text-cyan`} />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-navy">
+                        {p.category}
+                      </h3>
+                      <p className="text-xs text-cyan font-medium">{p.brands}</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-1.5 mb-4">
+                    {p.items.map((item) => (
+                      <li
+                        key={item}
+                        className="text-gray-600 text-sm flex items-center gap-2"
+                      >
+                        <i className="fas fa-chevron-right text-cyan text-[0.6rem]" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <span className="inline-flex items-center gap-2 text-cyan font-semibold text-sm group-hover:gap-3 transition-all">
+                    View Products <i className="fas fa-arrow-right text-xs" />
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </>
+  );
+}
