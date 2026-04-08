@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import TopBar from "@/components/TopBar";
+>>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Footer from "@/components/Footer";
@@ -51,6 +55,10 @@ const sections = [
 export default function SitemapPage() {
   return (
     <>
+<<<<<<< HEAD
+=======
+      <TopBar />
+>>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
       <Navbar />
       <PageBanner title="Site Map" breadcrumb="Site Map" />
 

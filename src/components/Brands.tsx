@@ -53,7 +53,10 @@ export default function Brands() {
                     src={b.image}
                     alt={b.name}
                     fill
+<<<<<<< HEAD
                     sizes="(max-width: 768px) 45vw, 15vw"
+=======
+>>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
                     className="object-contain"
                   />
                 </div>
