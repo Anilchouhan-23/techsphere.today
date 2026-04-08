@@ -43,7 +43,7 @@ export default function ReturnsPage() {
             To initiate a return or refund request, please contact us at{" "}
             <strong>support@techsphere.today</strong> or call <strong>+91 98765 43210</strong> with
             your order details and reason for return.
-          </p>
+          </p>support
 
           <p className="text-gray-500 text-sm mt-10 italic">
             Last updated: March 2026

@@ -146,7 +146,7 @@ export default function PrivacyPolicyPage() {
               to or emailing us at{" "}
               <strong>support@techsphere.today</strong>.
             </li>
-          </ul>
+          </ul>support
           <p className="text-gray-600 mb-4">
             We will not sell, distribute or lease your personal information to third
             parties unless we have your permission or are required by law to do so. We may
@@ -369,7 +369,7 @@ export default function PrivacyPolicyPage() {
             specific objection, please notify us by email,{" "}
             <strong>support@techsphere.today</strong> with the subject line &ldquo;Data
             Protection&rdquo;. Please bear in mind that if you object this may affect our
-            ability to carry out services and the tasks in clause 7.2 for your benefit.
+            ability supportarry out services and the tasks in clause 7.2 for your benefit.
           </p>
 
           {/* 8. Data Retention */}

@@ -108,7 +108,7 @@ export default function Footer() {
               </p>
               <p>
                 <i className="fas fa-envelope text-cyan mr-2" />
-                support@techsphere.today
+                supportort@techsphere.today
               </p>
               <p>
                 <i className="fas fa-globe text-cyan mr-2" />
