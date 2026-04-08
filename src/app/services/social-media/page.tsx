@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Footer from "@/components/Footer";
@@ -16,7 +15,6 @@ const features = [
 export default function SocialMediaPage() {
   return (
     <>
-      <TopBar />
       <Navbar />
       <PageBanner title="Social Media Marketing" breadcrumb="Social Media Marketing" />
 

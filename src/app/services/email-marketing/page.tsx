@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Footer from "@/components/Footer";
@@ -16,7 +15,6 @@ const features = [
 export default function EmailMarketingPage() {
   return (
     <>
-      <TopBar />
       <Navbar />
       <PageBanner title="Email Marketing Campaigns" breadcrumb="Email Marketing" />
 

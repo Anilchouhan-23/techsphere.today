@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Footer from "@/components/Footer";
@@ -17,7 +16,6 @@ const features = [
 export default function BulkSMSPage() {
   return (
     <>
-      <TopBar />
       <Navbar />
       <PageBanner title="Bulk SMS Services" breadcrumb="Bulk SMS" />
 
