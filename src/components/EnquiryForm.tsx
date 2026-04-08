@@ -46,11 +46,7 @@ export default function EnquiryForm() {
             {[
               { icon: "fa-map-marker-alt", text: "Hyderabad, Telangana, India", label: "Location" },
               { icon: "fa-phone", text: "+91 98765 43210", label: "Phone" },
-<<<<<<< HEAD
-              { icon: "fa-envelope", text: "supportort@techsphere.today", label: "Email" },
-=======
-              { icon: "fa-envelope", text: "info@techsphere.today", label: "Email" },
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
+              { icon: "fa-envelope", text: "support@techsphere.today", label: "Email" },
               { icon: "fa-clock", text: "Mon - Sat: 9:00 AM - 7:00 PM", label: "Hours" },
             ].map((item) => (
               <div key={item.icon} className="flex items-center gap-3.5 group">

@@ -124,10 +124,7 @@ export default function ProductPageLayout({
                   src={`/images/brands/${b}.jpg`}
                   alt={b}
                   fill
-<<<<<<< HEAD
                   sizes="(max-width: 768px) 100vw, 50vw"
-=======
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
                   className="object-contain object-left"
                 />
               </div>

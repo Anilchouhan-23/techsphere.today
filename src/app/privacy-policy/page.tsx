@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import TopBar from "@/components/TopBar";
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Footer from "@/components/Footer";
@@ -9,10 +5,6 @@ import Footer from "@/components/Footer";
 export default function PrivacyPolicyPage() {
   return (
     <>
-<<<<<<< HEAD
-=======
-      <TopBar />
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
       <Navbar />
       <PageBanner title="Privacy Policy" breadcrumb="Privacy Policy" />
 
@@ -152,15 +144,9 @@ export default function PrivacyPolicyPage() {
               If you have previously agreed to us using your personal information for
               direct marketing purposes, you may change your mind at any time by writing
               to or emailing us at{" "}
-<<<<<<< HEAD
               <strong>support@techsphere.today</strong>.
             </li>
-          </ul>support
-=======
-              <strong>info@techsphere.today</strong>.
-            </li>
           </ul>
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
           <p className="text-gray-600 mb-4">
             We will not sell, distribute or lease your personal information to third
             parties unless we have your permission or are required by law to do so. We may
@@ -381,15 +367,9 @@ export default function PrivacyPolicyPage() {
             always keep your personal data rights in high regards and take account of these
             rights. If you do not want us to process your data in this way or have a
             specific objection, please notify us by email,{" "}
-<<<<<<< HEAD
             <strong>support@techsphere.today</strong> with the subject line &ldquo;Data
             Protection&rdquo;. Please bear in mind that if you object this may affect our
-            ability supportarry out services and the tasks in clause 7.2 for your benefit.
-=======
-            <strong>info@techsphere.today</strong> with the subject line &ldquo;Data
-            Protection&rdquo;. Please bear in mind that if you object this may affect our
             ability to carry out services and the tasks in clause 7.2 for your benefit.
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
           </p>
 
           {/* 8. Data Retention */}

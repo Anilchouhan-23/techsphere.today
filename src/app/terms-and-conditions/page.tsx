@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import TopBar from "@/components/TopBar";
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Footer from "@/components/Footer";
@@ -9,10 +5,6 @@ import Footer from "@/components/Footer";
 export default function TermsPage() {
   return (
     <>
-<<<<<<< HEAD
-=======
-      <TopBar />
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
       <Navbar />
       <PageBanner title="Terms & Conditions" breadcrumb="Terms & Conditions" />
 

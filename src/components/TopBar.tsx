@@ -9,11 +9,7 @@ export default function TopBar() {
           </span>
           <span>
             <i className="fas fa-envelope text-cyan mr-1.5" />{" "}
-<<<<<<< HEAD
-            supportort@techsphere.today
-=======
-            info@techsphere.today
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
+            support@techsphere.today
           </span>
           <span>
             <i className="fas fa-phone text-cyan mr-1.5" /> +91 98765 43210

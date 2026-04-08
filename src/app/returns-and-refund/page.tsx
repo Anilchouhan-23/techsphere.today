@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import TopBar from "@/components/TopBar";
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Footer from "@/components/Footer";
@@ -9,10 +5,6 @@ import Footer from "@/components/Footer";
 export default function ReturnsPage() {
   return (
     <>
-<<<<<<< HEAD
-=======
-      <TopBar />
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
       <Navbar />
       <PageBanner title="Returns & Refund Policy" breadcrumb="Returns & Refund" />
 
@@ -49,15 +41,9 @@ export default function ReturnsPage() {
           <h3 className="text-lg font-semibold text-navy mt-8 mb-3">5. Contact for Returns</h3>
           <p className="text-gray-600 mb-4">
             To initiate a return or refund request, please contact us at{" "}
-<<<<<<< HEAD
             <strong>support@techsphere.today</strong> or call <strong>+91 98765 43210</strong> with
             your order details and reason for return.
-          </p>support
-=======
-            <strong>info@techsphere.today</strong> or call <strong>+91 98765 43210</strong> with
-            your order details and reason for return.
           </p>
->>>>>>> 906b4ecf8ce36730193b01a9b71dedf6c46b115a
 
           <p className="text-gray-500 text-sm mt-10 italic">
             Last updated: March 2026
